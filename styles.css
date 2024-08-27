@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #87ceeb; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    padding: 20px; 
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color:#d6651f; 
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+}
+
+.Bandera {
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 900px; 
+}
+
+.Franja {
+    width: 300px;
+    height: 400px;
+}
+
+.Verde {
+    background-color: darkgreen;
+}
+
+.Blanca {
+    background-color: white;
+    position: relative;
+}
+
+.Roja {
+    background-color: darkred;
+}
+
+.Franja:hover {
+    cursor: pointer;
+}
+
+.Verde:hover {
+    background-color: green;
+}
+
+.Blanca:hover {
+    background-color: whitesmoke;
+}
+
+.Roja:hover {
+    background-color: red;
+}
+
+.Escudo {
+    width: 350px; 
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+fieldset {
+    background-color: white;
+    font-size: 14px;
+    text-align: justify;
+    max-width: 2000px;
+    margin: 10px auto;
+    border: 2px solid green;
+    padding: 10px;
+}
